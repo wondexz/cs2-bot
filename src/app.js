@@ -8,7 +8,7 @@ const client = new Client({
     partials: Object.values(Partials)
 });
 
-if (!process.env.TOKEN || !process.env.OWNER_ID) return console.log(chalk.red("TOKEN, BOT_STATUS veya OWNER_ID girilmemiş lütfen kontrol edin."))
+if (!process.env.TOKEN || !process.env.OWNER_ID || !process.env.EMBED_COLOR || !process.env.SERVER_IP || !process.env.ETIKET || !process.env.SERVER_LOGO) return console.log(chalk.red("TOKEN, SERVER_IP, OWNER_ID, EMBED_COLOR veya SERVER_LOGO'dan herhangi biri girilmemiş; lütfen kontrol edin."))
 
 global.client = client;
 client.commands = (global.commands = []);
