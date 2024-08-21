@@ -9,6 +9,7 @@
 - Aktif ve bakım embedları.
 - Özel yetkilendirme sistemi.
 - Not ekleme görüntüleme sistemi örnek: (adminlik bitiş tarihi 30.08.2024)
+- Rapor sistemi.
 
 ## 📞 İletişim
 [Discord](https://discord.com/users/693140554330144829)
